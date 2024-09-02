@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Suellen</title>
+  <link rel="stylesheet" href="estilo.css" >
+  
+</head>
+<body>
+
+  <!---===============HEADER==================-->
+   <header>
+    <div class="header-container">
+    <div class="logo"> suellen.</div> 
+     <nav>
+      <div class="nav-container">
+     <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre-mim">Sobre mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+     </ul>
+  </div>
+</nav>
+
+  
+  
+     <!--======MENU-CELULAR=======-->
+ 
+   <button class="btnMenu" onclick="toggleMenu()">
+    <img src="./imagem/icon-menu.png" alt="" class="menu-icon">
+    <img src="./imagem/iconmenu-close.png" alt="" class="close-icon">
+   </button>
+   
+
+   <ul id="menu" class="menu-header">
+    <li><a href="#inicio" onclick="toggleMenu()">Início</a></li>
+    <li><a href="#sobre-mim" onclick="toggleMenu()">Sobre mim</a></li>
+    <li><a href="#formacao" onclick="toggleMenu()">Formação</a></li>
+    <li><a href="#portfolio" onclick="toggleMenu()">Portfólio</a></li>
+    <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+   </ul> 
+   
+  </header>
+     
+   
+
+  <!---===============INICIO==================-->
+
+    <main>
+      <section class="inicio" id="inicio">
+         <div class="inicio-content">
+           <h3 class="h3-inicio">Olá! eu sou Suellen :)</h2>
+           <h1 class="h1-inicio">analista de dados <br>em formação.</h3>
+           <p class="descricao-p">Estudante de Análise e Desenvolvimento de Sistemas com paixão
+             por transformar dados em insights acionáveis.</p>
+
+          <div class="custom-botao">
+          <a href="#contato" class="btn-contato">entre em contato <img src="./imagem/seta-ic.png" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+   <!---===============SOBRE MIM==================-->
+     <section class="sobre-mim" id="sobre-mim">
+      <h4 class="h4-sobre-mim">Introdução</h4>
+      <h2 class="h2-sobremim">Sobre mim</h2>
+
+      <div class="sobremim-content">
+        <p> Desde o início da minha jornada acadêmica, desenvolvi uma forte
+          paixão por dados e a capacidade deles de contar histórias
+          e impulsionar decisões estratégicas. 
+          Meu objetivo é atuar como Analista de Dados, 
+          transformando grandes volumes de informações 
+          em insights valiosos para empresas e organizações.
+          Estou sempre em busca de novos desafios
+          e oportunidades para expandir meu conhecimento e habilidades.
+        </p>
+
+        <!----=====INF DE CONTATO=========-->
+        <div class="informacao">
+
+          <div class="inf-box">
+            <img src="./imagem/icon-user.png" alt="">
+            <span>Suellen de Sousa</span>
+          </div>
+
+          <div class="inf-box">
+            <img src="./imagem/icon-telefone.png" alt="">
+            <span>+55 62 99307-0979</span>
+          </div>
+
+          <div class="inf-box">
+            <img src="./imagem/icon-email.png" alt="">
+            <span>suellensousa2018@gmail.com</span>
+          </div>
+        </div>
+      </div>
+     </section>
+
+       <!---===============FORMAÇÃO==================-->
+     <section class="formacao" id="formacao">
+      <h4 class="h4-formacao">Formação</h4>
+      <h2 class="h2-formacao">Educação & Skills</h2>
+      
+          <ul class="grid">
+            <li class="card">
+              <img src="./imagem/grad-icon.png" alt="">
+              <h3>Educação</h3>
+              <p>Análise e Desenvolvimento de Sistemas - Uninter
+              </p>
+            </li> 
+            <li class="card">
+              <img src="./imagem/bd-icon.png" alt="">
+             <h3>Linguagens</h4>
+             <p>SQL, Python, Excel, HTML, CSS </p>
+            </li>
+          </ul>
+     </section>
+ 
+  <!---===============PORTFÓLIO==================-->   
+     <section class="portfolio" id="portfolio">
+      <h4 class="h4-portfolio">Projetos</h4>
+      <h2 class="h2-portfolio">Portfólio</h2>
+      <p>Bem-vindo ao meu portfólio de análise de dados! Explore uma coleção de projetos que 
+        demonstram minha expertise em análises,
+        realizados para aprimorar meus conhecimentos. </p>
+
+        <div class="portfolio-content">
+          <a href="https://github.com/suellensousa/netflix-data-analysis/tree/main" target="_blank" class="portf-img-link">
+          <div class="portf-img" style="background-image: url('https://images.pexels.com/photos/669612/pexels-photo-669612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">
+          <div class="elemento">
+          <div class="text-portf">
+           <h2>Análise <br> de filmes</h2>
+           <p>análise</p>
+          </div>
+           <div class="icon-portfolio">
+           <img src="./imagem/icon-port.png" alt="" class="icon-portf">
+         </div>
+        </div>
+       </div>
+      </a>
+         
+      <a href="https://github.com/suellensousa/imc-data-analysis" target="_blank" class="portf-img-link">
+        <div class="portf-img" style="background-image: url('https://img.freepik.com/fotos-gratis/conceito-de-dados-de-relatorio-de-grafico-de-brainstorming-de-grafico-de-negocios_53876-41686.jpg?w=740&t=st=1724964175~exp=1724964775~hmac=3189c5dff2b5e6146d0384c1f9b42252f9542d1f9df3d79b5a398f483427b426');">
+        <div class="elemento">
+        <div class="text-portf">
+         <h2>Análise <br>de IMC</h2>
+         <p>análise</p>
+        </div>
+         <div class="icon-portfolio">
+         <img src="./imagem/icon-port.png" alt="" class="icon-portf">
+       </div>
+      </div>
+     </div>
+    </a>
+        <a href="https://github.com/suellensousa/genero-musical-analysis/tree/main" target="_blank" class="portf-img-link">
+        <div class="portf-img" style="background-image: url('https://img.freepik.com/fotos-gratis/empresarios-que-trabalham-em-financas-e-contabilidade-analisar-orcamento-grafico-financeiro-e-planejamento-para-o-futuro-na-sala-de-escritorio_74952-1396.jpg?w=826&t=st=1724968777~exp=1724969377~hmac=2292bd7b6a64cffd00927cdd0fee8b832f635fd026f7b0705fea42f1caf3a8fa');">
+        <div class="elemento">
+        <div class="text-portf">
+        <h2>Análise <br>de música</h2>
+        <p>análise</p>
+        </div>
+        <div class="icon-portfolio">
+        <img src="./imagem/icon-port.png" alt="" class="icon-portf">
+      </div>
+     </div>
+    </div>
+   </div>
+ </a>
+   </section>
+     
+     <!---===============CONTATO==================-->
+     <section class="contato" id="contato">
+      <h4 class="h4-contato">Entre em contato</h4>
+      <h2 class="h2-contato">Contato</h2>
+      <p>Eu adoraria ouvir você! Se você tiver alguma pergunta,
+         comentário ou feedback, por favor use o formulário abaixo.</p>
+
+          <form action="https://formspree.io/f/mqaznvyk" method="POST" class="cnt-form">
+            <div class="form-inf">
+            <input type="text" name="nome" placeholder="Nome" class="nome-input" required>
+            <input type="email" name="email" placeholder="E-mail" class="email-input" required>
+          </div>
+          <textarea rows="6" name="mensagem" placeholder="Mensagem" class="msg-form" required></textarea>
+          <button  type="submit" class="cont-botao">enviar
+          <img src="./imagem/seta-ic.png" alt="" class="seta-contato">
+        </button>
+          </form>  
+     </section>
+
+     <!---===============RODAPE==================-->
+     <section class="rodape">
+      <div class="text-logo"> suellen. </div>
+      
+       <div class="email-rodape">
+        <img src="./imagem/icon-email.png" alt="">
+        suellensousa2018@gmail.com
+    </div>
+    <div class="inf-rodape">
+      <p>© 2024 Suellen Sousa. Todos os direitos reservados.</p>
+      <ul class="social-rodape">
+        <li><a href="https://github.com/suellensousa">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/suellen-sousa-carvalho/">LinkedIn</a></li>
+      </ul>
+    </div>
+     </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
